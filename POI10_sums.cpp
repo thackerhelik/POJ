@@ -1,5 +1,9 @@
 /*
-
+Can be modelled as a graph with min(x: x belongs to A) vertices.
+Shortest path from vertex 0 is the smallest value with that particular mod value (modulo x)
+Find that using dijkstra's algorithm.
+Stroring the entire graph will give MLE + TLE
+So dont store the graph explicitly
 */
 #include<bits/stdc++.h>
 using namespace std;
